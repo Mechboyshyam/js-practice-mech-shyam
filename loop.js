@@ -12,8 +12,15 @@ shyamm.forEach((item)=>{
 /**Map property */
 
 const shyammm= ["VIKAS", "VIJAY", "KETAN", "VISHAL"]
-const val =shyammm.map((student,index)=>{
+const vall =shyammm.map((student,index)=>{
     console.log("I have friend, and name is " +student)
     return (index+" Done")
 })
+console.log(vall)
+
+const arr = ["shyam", "vikas", "yash", "AJAY", "Ruby"]
+const val = arr.map((item) =>{
+    console.log("I have friend and his/her name is " +item)
+    return "Now, he's not my friend anymore"
+} )
 console.log(val)
